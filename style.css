@@ -1,0 +1,67 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(107, 255, 253, 0.99);
+    margin-top: 10rem;
+    margin-left: 45rem;
+    width: 30rem;
+    height: 25rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8rem 5rem;
+    border: 3px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.container #h1 {
+    color: rgb(6, 6, 6);
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1.5px;
+}
+
+#myimg {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#off {
+    background-color: yellow;
+    padding: 10px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#off:hover {
+    background-color: rgb(233, 35, 21);
+}
+
+#on {
+    background-color: yellow;
+    padding: 10px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    justify-content: center;
+    font-weight: bold;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#on:hover {
+    background-color: rgb(2, 255, 91);
+}
